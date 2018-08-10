@@ -1,0 +1,76 @@
+/* ---- OVERALL STYLE ---- */
+
+* {
+  /* border: solid 1px black !important; */
+}
+
+/* --- PEOPLE SECTION --- */
+
+.service {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.headline_container {
+  display: flex;
+  align-items: center;
+  padding: 70px 30px 0;
+}
+
+.headline {
+  font-size: 80px;
+  text-align: center;
+  padding: 0 0 0.2em;
+  flex: 1;
+}
+
+.styled_line {
+  height: 2px;
+  background-color: #e5e5e5;
+  flex: 1
+}
+
+/* .headline::before, .headline::after {
+  content: "";
+  top: 50%;
+  width: 1000px;
+  display: block;
+  margin-top: -1px;
+} */
+
+.people {
+  font-family: "EB Garamond",Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 1.2;
+  margin: 0 0 0.5em;
+}
+
+.service_container {
+  margin: auto;
+  width: 85%;
+  padding: 1.5em 0em 0em 0em;
+}
+
+.photo_container {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.person_img {
+  vertical-align: bottom;
+  height: 235px;
+  width: 195px;
+  object-fit: cover;
+  margin: 15px;
+}
+
+.description {
+  flex: 2;
+}
