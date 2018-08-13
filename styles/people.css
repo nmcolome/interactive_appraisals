@@ -28,16 +28,8 @@
 .styled_line {
   height: 2px;
   background-color: #e5e5e5;
-  flex: 1
+  flex: 0.5
 }
-
-/* .headline::before, .headline::after {
-  content: "";
-  top: 50%;
-  width: 1000px;
-  display: block;
-  margin-top: -1px;
-} */
 
 .people {
   font-family: "EB Garamond",Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
