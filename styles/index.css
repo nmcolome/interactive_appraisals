@@ -145,19 +145,52 @@ main {
   padding: 1.5em;
  }
 
- .line {
-   height: 30px;
-   margin: 0;
-   width: 0;
-   padding: 0;
-   border: 0;
- }
+.line {
+  height: 30px;
+  margin: 0;
+  width: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* --- MAP SECTION --- */
+
+.map_header {
+  text-align: center;
+  color: #a41e23;
+  font-weight: 400;
+  font-size: 50px;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.map_container {
+  text-align: right;
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.map_text {
+  color: #999999;
+  font-weight: 400;
+  font-size: 30px;
+  flex: 1.5;
+  margin: 120px 40px;
+}
+
+.map_section {
+  flex: 1.5;
+}
+
+.map_img {
+  width: 100%;
+  height: auto;
+}
 
 /* --- FEATURE SECTION --- */
 
 .features {
-  /* position: relative; */
-  /* top: 90px; */
   margin: 40px;
   display: flex;
   flex-direction: column;
@@ -172,15 +205,21 @@ main {
   flex: 0.27;
   color: #999999;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  border: #a41e23 3px solid;
+  border-radius: 50%;
+  width: fit-content;
 }
 
 .feature_img {
-  width: 2em;
-  height: auto;
-  padding: 12px;
-  border: #a41e23 solid 2px;
-  border-radius: 50%;
-  margin: 0 0 10px;
+  width: 5vw;
+  height: 5vw;
+  padding: 15px;
 }
 
 .feature_content h4 {
@@ -188,6 +227,7 @@ main {
   font-size: 30px;
   line-height: 1.2;
   color: #a41e23;
+  padding-top: 25px;
 }
 
 .feature_content p {
