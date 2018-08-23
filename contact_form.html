@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hammond and Company of Oklahoma | Truly Interactive Appraisals</title>
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/contact_form.css">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+</head>
+<body>
+  <div class="overlay">
+    <a href="index.html"><img class="close" src="images/exit.svg" alt="close symbol"></a>
+  </div>
+  <main class="form">
+  <!--- START MAIN SECTION -->
+    <h3>THE FUTURE OF APPRAISALS</h3>
+    <p>Request a preview of our revolutionary, interactive appraisal.</p>
+    <form class="appraisal_form" action="#">
+      <div class="form_sections first">
+        <label class="regular_label">
+          Name:
+          <input type="text" name="name">
+        </label>
+        <label class="regular_label">
+          Position:
+          <input type="text" name="position">
+        </label>
+        <label class="regular_label">
+          Company Name:
+          <input type="text" name="company">
+        </label>
+        <label class="regular_label">
+          Email:
+          <input type="email" name="email">
+        </label>
+        <label class="regular_label">
+          Facility Location:
+          <input type="text" name="location">
+        </label>
+        <label class="regular_label">
+          Facility Type:
+          <input type="text" name="facility_type">
+        </label>
+      </div>
+      <!-- <div class="form_sections"> -->
+      <img class="report_mock second" src="images/report_mock.png" alt="report mock">
+      <!-- </div> -->
+      <div class="form_sections third">
+        <label>
+          Asset Type: (select all that apply)
+          <div class="answers three_cols">
+            <div class="answer">
+              <input type="checkbox" name="asset_types[]" value="equipment">Equipment
+            </div>
+            <div class="answer">
+              <input type="checkbox" name="asset_types[]" value="building">Building
+            </div>
+            <div class="answer">
+              <input type="checkbox" name="asset_types[]" value="land">Land
+            </div>
+          </div>
+        </label>
+        <label>
+          Purpose of Appraisal: (select all that apply) <br>
+          <div class="answers">
+            <div class="answer two_cols">
+              <input type="checkbox" name="reasons[]" value="allocation of purchase price">Allocation of purchase price
+            </div>
+            <div class="answer two_cols">
+              <input type="checkbox" name="reasons[]" value="bankruptcy">Bankruptcy
+            </div>
+            <div class="answer two_cols">
+              <input type="checkbox" name="reasons[]" value="condemnation">Condemnation
+            </div>
+            <div class="answer two_cols">
+              <input type="checkbox" name="reasons[]" value="dissolutions of corporations, partnerships, and marriages">Dissolutions of Corporations, Partnerships, and Marriages
+            </div>
+            <div class="answer two_cols">
+              <input type="checkbox" name="reasons[]" value="financing">Financing
+            </div>
+            <div class="answer two_cols">
+              <input type="checkbox" name="reasons[]" value="insurance and loss settlement">Insurance and Loss Settlement
+            </div>
+            <div class="answer two_cols">
+              <input type="checkbox" name="reasons[]" value="leasing">Leasing
+            </div>
+            <div class="answer two_cols">
+              <input type="checkbox" name="reasons[]" value="management considerations">Management Considerations
+            </div>
+            <div class="answer two_cols">
+              <input type="checkbox" name="reasons[]" value="taxation">Taxation
+            </div>
+            <div class="answer two_cols">
+              <input type="checkbox" name="reasons[]" value="taxation - income tax">Taxation - Income Tax
+            </div>
+            <div class="answer two_cols">
+              <input type="checkbox" name="reasons[]" value="taxation - property tax">Taxation - Property Tax
+            </div>
+            <div class="answer two_cols">
+              <input type="checkbox" name="reasons[]" value="taxation - estate and gift taxes, charitable contributions">Taxation - Estate and Gift Taxes, Charitable Contributions
+            </div>
+          </div>
+        </label>
+        <input class="req_btn" type="submit" value="request more information">
+      </div>
+    </form>
+  <!--- END FEATURE SECTION -->
+  </main>
+  <!-- <footer><img src="images/logo_white.png" alt=""></footer> -->
+</body>
+</html>
